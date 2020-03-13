@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senai.Gufi.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Senai.Gufi.WebApi.Manha.Controllers.EventoController.GetListar">
+            <summary>
+            Método que lista Eventos
+            </summary>
+            <returns>Retorna lista de eventos</returns>
+        </member>
+        <member name="M:Senai.Gufi.WebApi.Manha.Controllers.EventoController.GetBuscarPorId(System.Int32)">
+            <summary>
+            Método que busca Evento pelo Identificador 
+            </summary>
+            <returns>Evento buscado pelo identificador</returns>
+        </member>
+        <member name="M:Senai.Gufi.WebApi.Manha.Controllers.EventoController.PostCadastrarEvento(Senai.Gufi.WebApi.Domains.Evento)">
+            <summary>
+            Método que Cadastra um novo Evento
+            </summary>
+            <param name="eventoNovo">Objeto que será cadastrado</param>
+            <returns>retorna um Evento cadastrado</returns>
+        </member>
+        <member name="M:Senai.Gufi.WebApi.Manha.Controllers.EventoController.PutAtualizarEvento(System.Int32,Senai.Gufi.WebApi.Domains.Evento)">
+            <summary>
+            Método que atualiza Evento já cadastrado
+            </summary>
+            <param name="id">Identificador que será buscado, para atualizá-lo.</param>
+            <param name="eventoNovo">Objeto que será atualizado</param>
+            <returns></returns>
+        </member>
+        <member name="M:Senai.Gufi.WebApi.Manha.Controllers.EventoController.DeletaEvento(System.Int32)">
+            <summary>
+            Método que excluir um Evento
+            </summary>
+            <param name="id">Identificador que será buscado, e excluído.</param>
+            <returns>Exclui um evento</returns>
+        </member>
+        <member name="M:Senai.Gufi.WebApi.Manha.Controllers.TipoUsuarioController.GetListarTU">
+            <summary>
+            Método onde lista todos os Tipos De Usuários cadastrados
+            </summary>
+            <returns>Retorna uma lista de Tipo Usuários</returns>
+        </member>
+        <member name="M:Senai.Gufi.WebApi.Manha.Controllers.TipoUsuarioController.GetBuscarPorIdTU(System.Int32)">
+            <summary>
+            Método que busca Tipo Usuário pelo seu identificador
+            </summary>
+            <param name="id">Identificador que será buscado</param>
+            <returns>Retorna um Tipo Usuário buscado</returns>
+        </member>
+        <member name="M:Senai.Gufi.WebApi.Manha.Controllers.TipoUsuarioController.PostCadstrarTU(Senai.Gufi.WebApi.Domains.TipoUsuario)">
+            <summary>
+            Método que cadastrada um novo Tipo Usuário 
+            </summary>
+            <param name="tUCadastrado">Objeto que será cdastrado</param>
+            <returns>Retorna um Novo Tipo Usuário</returns>
+        </member>
+        <member name="M:Senai.Gufi.WebApi.Manha.Controllers.TipoUsuarioController.PutAtualizarTU(System.Int32,Senai.Gufi.WebApi.Domains.TipoUsuario)">
+            <summary>
+            Método que atualiza as informações do Tipo Usuário, que alterei pelo objeto e Identifcador
+            </summary>
+            <param name="id">Identificador que é buscado para atualizar as informações</param>
+            <param name="tipoUsuarioAtualizado">Objeto que será altereado</param>
+            <returns></returns>
+        </member>
+        <member name="M:Senai.Gufi.WebApi.Manha.Controllers.TipoUsuarioController.DeletarTU(System.Int32)">
+            <summary>
+            Méto que excluí um Tipo Usuário pelo seu identificador 
+            </summary>
+            <param name="id">Identificador que será buscado, e excluído.</param>
+            <returns>Exclui um Tipo Usuário</returns>
+        </member>
+        <member name="M:Senai.Gufi.WebApi.Manha.Controllers.UsuarioController.GetListarUsuarios">
+            <summary>
+            Método que lista todos meus Usuários cadastrados
+            </summary>
+            <returns>Retorna uma lista de Usuários</returns>
+        </member>
+        <member name="M:Senai.Gufi.WebApi.Manha.Controllers.UsuarioController.GetBuscarPorIdU(System.Int32)">
+            <summary>
+            Método que busca Usuário pelo seu identificador
+            </summary>
+            <param name="id">Identificador que será buscado</param>
+            <returns>Retorna um Usuário pelo seu Identificador</returns>
+        </member>
+    </members>
+</doc>
